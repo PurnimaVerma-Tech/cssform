@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.one {
+  border: 5px solid black;
+  width: 100%;
+  height: 600px;
+}
+
+.parent-container {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  margin: 10px;
+  padding: 60px;
+}
+
+.child-container-one {
+  border: 1px solid grey;
+  width: 50%;
+  height: 400px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  gap: 1px; /* Space between elements */
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  gap: 5px;
+  font-size: 26px;
+}
+
+.child-container-two {
+  width: 50%;
+  height: 400px;
+  background-color: #27c48d;
+  margin: auto;
+  color: white;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  gap: 15px; /* Space between elements */
+  text-align: center;
+  padding: 30px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 80%; /* or set a fixed width like 300px */
+  padding: 10px;
+  font-size: 16px; /* Makes placeholder larger too */
+}
+
+input::placeholder {
+  font-size: 18px; /* Increase placeholder text size */
+  color: #888; /* Optional: change placeholder color */
+}
+
+.btn {
+  border: none;
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: green;
+  color: white;
+}
+
+.btn2 {
+  border: 1px solid;
+  border-radius: 15px;
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #28c38c;
+  color: white;
+  box-shadow: 3px 5px 10px grey;
+}
+
+.icons i {
+  gap: 10px;
+  cursor: pointer;
+}
+
+.icons .fa-facebook {
+  color: #1c68b0;
+}
+
+.icons .fa-google-plus-g {
+  color: #cd4430;
+}
+.icons .fa-linkedin {
+  color: #1568ad;
+}
